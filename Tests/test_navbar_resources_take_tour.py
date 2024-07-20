@@ -8,4 +8,4 @@ class TestNavBarResourcesTakeTour:
         driver = fixtureSetup
         nav_bar_resources = NavBarResourcesPage(driver)
         nav_bar_resources.accept_cookies()
-        nav_bar_resources.nav_bar_resources_take_tour()
+        nav_bar_resources.click_nav_bar_resources_take_tour()
