@@ -8,6 +8,10 @@ class NavBarResourcesPage(BaseFunctions):
     navbar_resources = (By.XPATH, '//*[@id="navbarNavDropdown"]/ul[1]/li[5]')
     navbar_resources_explore_insider = (By.CSS_SELECTOR, "#navbarNavDropdown > ul:nth-child(1) > li.nav-item.dropdown.show > div > div.menu-highlight-layout-5 > div.menu-highlight-layout-5-image-container > img")
     navbar_resources_take_tour = (By.CSS_SELECTOR, "#navbarNavDropdown > ul:nth-child(1) > li.nav-item.dropdown.show > div > div.new-menu-dropdown-layout-5-left-container > a:nth-child(2)")
+    navbar_resources_cdp_explorer = (By.CSS_SELECTOR, "#navbarNavDropdown > ul:nth-child(1) > li.nav-item.dropdown.show > div > div.new-menu-dropdown-layout-5-left-container > a:nth-child(4)")
+    navbar_whatsapp_explorer = (By.CSS_SELECTOR, "#navbarNavDropdown > ul:nth-child(1) > li.nav-item.dropdown.show > div > div.new-menu-dropdown-layout-5-left-container > a:nth-child(5)")
+    navbar_sms_templates_library = (By.CSS_SELECTOR, "#navbarNavDropdown > ul:nth-child(1) > li.nav-item.dropdown.show > div > div.new-menu-dropdown-layout-5-left-container > a:nth-child(6)")
+    navbar_productivity_calculator = (By.CSS_SELECTOR, "#navbarNavDropdown > ul:nth-child(1) > li.nav-item.dropdown.show > div > div.new-menu-dropdown-layout-5-left-container > a:nth-child(7)")
 
 
 
